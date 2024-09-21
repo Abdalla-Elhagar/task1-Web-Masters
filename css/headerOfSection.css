@@ -1,0 +1,31 @@
+.headerOfSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.headerOfSection h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.headerOfSection p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    width: 936px;
+    color: #475467;
+}
+
+@media(width < 992px) {
+    .headerOfSection p {
+        width: 100%;
+    }
+}
+@media(width < 400px) {
+    .headerOfSection h1 {
+        font-size: 24px;
+    }
+    .headerOfSection p {
+        font-size: 16px;
+    }
+}
