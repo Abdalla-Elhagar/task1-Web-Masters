@@ -989,6 +989,9 @@ footer .bottom {
         font-size: 14px;
         line-height: 1.2;
     }
+    .innovators .left {
+        width: 100% !important;
+    }
     .innovators .right .box {
         width: 100%;
     }
